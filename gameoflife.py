@@ -4,7 +4,7 @@ cols = int(input("Enter the number of cols: "))
 
 #sets board state equal to all zeros
 def dead_state(rows, cols):
-    board_state = [["0" for i in range(cols)] for j in range(rows)]
+    board_state = [[0 for i in range(cols)] for j in range(rows)]
     return board_state
 
 def random_state(rows, cols):
@@ -31,12 +31,10 @@ def render(board_state):
 
 def next_board_state(board_state):
 
-def find_nearby_cells():
-
 
 
 board_state = random_state(rows, cols)
-render(board_state)
+print(board_state)
 
 
 
